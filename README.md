@@ -1,92 +1,405 @@
-# eve-echoes
+# eve echoes
 
 eve echoes skill path for ratting and pvp
 
-## Getting started
+[[_TOC_]]
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+# pvp/pve missile based
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## general skill
 
-## Add your files
+> note: skill marked with `[*]` are "maybe"
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- cruising technology
+    - navigation
+        - afterburner
+- maintenance technology
+    - shield operation
+        - shield operation
+        - advanced shield operation
+        - shield hardening [\*]
+        - advanced shield hardening [\*]
+- eletronics
+    - eletronic systems
+        - electronic warfare
+        - advanced eletronic warfare
+    - targeting
+        - target management
+        - advanced target management
+- industrial technology
+    - resources reprocessing
+        - scrapmetal processing [\*]
+- social science
+    - trade
+        - trade
+        - advanced trade
+        - accounting
+        - advanced accounting
+- natural science
+    - planet management
+        - planetology
+        - advanced planetology
+    - exploration
+        - archeology [\*]
+        - hacking [\*]
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/seintz/eve-echoes.git
-git branch -M main
-git push -uf origin main
-```
+## ship
 
-## Integrate with your tools
+> note: skill marked with `[**]` depends on how much cash we made and how fast
+> we can start using caracal
 
-- [ ] [Set up project integrations](https://gitlab.com/seintz/eve-echoes/-/settings/integrations)
+### condor
 
-## Collaborate with your team
+#### skill
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- cruising technology
+    - spaceship command
+        - frigades command
+        - advanced frigades command [\*\*]
+- maintenance technology
+    - defense upgrade
+        - frigades defense upgrade
+        - advanced frigades defense upgrade [\*\*]
+- eletronics
+    - engineering
+        - frigades engineering
+        - advanced frigades engineering [\*\*]
+- weapon technology
+    - missiles
+        - small missiles operation
+        - advanced small missiles operation [\*\*]
+        - small missiles upgrade
+        - advanced small missiles upgrade [\*\*]
 
-## Test and Deploy
+#### fitting
 
-Use the built-in continuous integration in GitLab.
+- h: 2x small missile launcher
+- m: 1x warp disruptor
+- s: 1x shield booster, 1x damage/ab
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+### kestrel
 
-***
+#### skill
 
-# Editing this README
+same as [condor](#condor)
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+#### fitting
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+- h: 2x small missile launcher
+- m: 1x warp disruptor
+- s: 1x shield booster, 1x afterburner
+- s: 1x shield booster, 1x damage
 
-## Name
-Choose a self-explaining name for your project.
+### caracal trainer
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+#### skill
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- cruising technology
+    - spaceship command
+        - cruiser command
+        - advanced cruiser command
+-  maintenance technology
+    - defense upgrade
+        - cruiser defense upgrade
+        - advanced cruiser defense upgrade
+-  eletronics
+    - engineering
+        - cruiser engineering
+        - advanced cruiser engineering
+- weapon technology
+    - missiles
+        - medium missile operation
+        - advanced medium missile operation
+        - medium missile upgrade
+        - advanced medium missile upgrade
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+#### fitting
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+- h: 4x medium rapid light
+- m: 2x warp disruptor
+- s: 1x shield booster, 1x damage, 1x afterburner
+- s: 1x shield booster, 1x shield extender, 1x afterburner
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### corax
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+since it may take a lot of time to reach cruise ship, this can be a good frigade
+to play with
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+#### skill
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+same as [kestrel](#kestrel)
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+All the frigades stuff
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+### caracal
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+#### skill
 
-## License
-For open source projects, say how it is licensed.
+same as [caracal trainer](#caracal-trainer)
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+#### fitting
+
+- h: 4x medium rapid light
+- m: 2x warp disruptor
+- s: 1x shield booster, 1x shield extender, 1x damage, 1x afterburner
+
+### carcal navy issue
+
+#### skill
+
+same as [caracal](#caracal)
+
+#### fitting
+
+- h: 5x medium rapid light
+- m: 2x warp disruptor, 1x webslow
+- s: 1x shield booster, 1x shield extender, 1x damage, 1x afterburner
+
+### gila
+
+#### skill
+
+same as [caracal](#caracal)
+
+- weapon technology
+    - drone
+        - medium drone operation
+        - advanced medium drone operation
+        - medium drone upgrade
+        - advanced medium drone upgrade
+        - drone
+        - advanced drone
+
+#### fitting
+
+- h: 4x medium rapid light
+- m: 2x warp disruptor, 1x webstasis
+- s: 1x shield booster, 1x shield extender, 1x missile damage, 1x drone damage, 1x afterburner
+- drone: 2x medium drone
+
+# pve cruiser drone
+
+## ship
+
+### vexor
+
+#### skill
+
+same as [gila](#gila)
+
+-  maintenance technology
+    - armor operation
+        - armor operation
+        - advanced armor operation
+    - defense upgrade
+        - cruiser defense upgrade
+        - advanced cruiser defense upgrade
+
+#### fitting
+
+- high: depends on the rat you are fighting
+    - thermal: gallente hammerhead
+    - kinetic: caldari
+- mid: warp, webstasis
+- low: 2x damage, 1 armrep, damage or afterburn
+
+
+# pvp/pve destroyer railguns
+
+## ship
+
+### catalyst
+
+#### skill
+
+- cruising technology
+    - spaceship command
+        - destroyer command
+        - advanced destroyer command
+- maintenance technology
+    - defense upgrade
+        - destroyer defense upgrade
+        - advanced destroyer defense upgrade
+- eletronics
+    - engineering
+        - destroyer engineering
+        - advanced destroyer engineering
+- weapon technology
+    - hybrid turret
+        - small hybrid turret operation
+        - advanced small hybrid turret operation
+        - small hybrid turret upgrade
+        - advanced small hybrid turret upgrade
+
+#### fitting
+
+- h: Nx railgun
+- m: 1x warp disruptor, 1x webstasis
+- s: 1x armor repair, 1x afterburn, 2x damage
+
+# pvp/pve frigade missiles
+
+## ship
+
+1. condor
+2. kestrel
+3. condor II
+4. breacher assault
+5. gurmur
+6. condor interceptor
+7. condor II interceptor
+
+### skill
+
+- cruising technology
+    - spaceship command
+        - frigades command
+        - advanced frigades command
+        - expert frigades command
+    - navigation
+        - afterburner
+        - advanced afterburner
+- maintenance technology
+    - shield operation
+        - shield operation
+        - advanced shield operation
+    - defense upgrade
+        - frigades defense upgrade
+        - advanced frigades defense upgrade
+        - expert frigades defense upgrade
+- eletronics
+    - engineering
+        - frigades engineering
+        - advanced frigades engineering
+        - expert frigades engineering
+    - eletronic systems
+        - electronic warfare
+        - advanced eletronic warfare
+    - targeting
+        - target management
+        - advanced target management
+- weapon technology
+    - missiles
+        - small missiles operation
+        - advanced small missiles operation
+        - expert small missiles operation
+        - small missiles upgrade
+        - advanced small missiles upgrade
+        - expert small missiles upgrade
+- industrial technology
+    - resources reprocessing
+        - scrapmetal processing
+- social science
+    - trade
+        - trade
+        - accounting
+- natural science
+    - planet management
+        - planetology
+
+### fitting
+
+- h: torpedoes
+- m: 1x warp disruptor, 1x web, 1x nos
+- s: 1x shield booster, 1x ab, 1x damage or warp core
+- off rig: 1x damage, 1x rof (activation time), 1x explosion velocity
+- def rig: 1x warp core, 1x cap recharge, 1x target speed
+
+### playstyle
+
+Speed tank, close range to hit accuracy falloff of turrets
+
+# stealth bomber
+
+## ship
+
+manticore solo, hound/purifier fleet
+
+### skill
+
+- cruising technology
+    - spaceship command
+        - frigades command
+        - advanced frigades command
+    - navigation
+        - microwarpdrive
+        - advanced microwarpdrive
+- maintenance technology
+    - armor operation
+        - armor operation
+        - advanced armor operation
+    - defense upgrade
+        - frigades defense upgrade
+        - advanced frigades defense upgrade
+- eletronics
+    - engineering
+        - frigades engineering
+        - advanced frigades engineering
+    - eletronic systems
+        - electronic warfare
+        - advanced eletronic warfare
+    - targeting
+        - target management
+        - advanced target management
+- weapon technology
+    - missiles
+        - medium missiles operation
+        - advanced medium missiles operation
+        - medium missiles upgrade
+        - advanced medium missiles upgrade
+- industrial technology
+    - resources reprocessing
+        - scrapmetal processing
+- social science
+    - trade
+        - trade
+        - accounting
+- natural science
+    - planet management
+        - planetology
+
+### fitting
+
+- h: 3x medium missile launcher (torpedo)
+- m: 1x warp disruptor (nos for pve), 1x web
+- s: 2x damage (or 1x MWD), 1x covert ops cloak
+- s: 1x MWD, 1x arm rep, 1x warp stab (for pve)
+
+- off rig: 1x damage, 1x exp velocity
+- def rig: 1x warp stab, 1x targeting
+
+# modules farming
+
+## beginner
+
+Starting gear can be found in _Guristas_ anom here:
+`New Eden > Black Rise > Aokinen > Onnamon`
+
+Can also be farmed for `Scout Anomaly` that drops `datacore` to make the
+[caracal](#caracal)
+
+## advanced
+
+Advanced gear for [caracal](#caracal) can be found in _Guristas_ anom here: 
+`New Eden > Pure Blind > 38G6-L > X-70MU`
+
+## expert
+
+[gila](#gila) `blueprints` and `datacores` can be found here: `Unknown for now`
+
+> NOTE: Still to investigate where to find `blueprint` and stuff
+
+
+# explanation
+
+## missile explanation
+
+You only have to worry about size of the ship you are shooting at and the speed it is moving.
+
+Don't have to worry about transversal velocity or rotation speed of your guns. Neither fall-off range and fall-off damage.
+
+With Missiles following statements are to worry:
+- What is the range of your missiles vs the distance to target. Are the target moving away from you? If so will the missile be able to to catch up to target before he moves out of range of missile.
+- What is the signature radius of the target vs  your explosion radius. If explosion radius is higher than signature you will lose some damage.
+- What is the speed of the target vs your explosion velocity. If the speed of the target is higher than your explosion velocity you will do reduced damage.
+- What is the speed of the target vs your missiles velocity. If the speed of the target is higher than your missiles velocity, the target can outrun your missile.
